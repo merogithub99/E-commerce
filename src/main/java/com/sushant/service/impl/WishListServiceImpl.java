@@ -13,6 +13,10 @@ public class WishListServiceImpl implements WishListService {
 
     private final WishListRepo wishListRepo;
 
+    public WishListServiceImpl(WishListRepo wishListRepo) {
+        this.wishListRepo = wishListRepo;
+    }
+
     @Override
     public WishList createWishList(User user) {
         WishList wishList = new WishList();

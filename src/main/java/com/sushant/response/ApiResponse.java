@@ -7,7 +7,7 @@ import lombok.Setter;
 
 
 public class ApiResponse {
-
+//api response
     private String message;
 
     public void setMessage(String message) {

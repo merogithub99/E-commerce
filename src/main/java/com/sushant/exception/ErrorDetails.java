@@ -11,6 +11,7 @@ import java.time.LocalDateTime;
 //@NoArgsConstructor
 //@AllArgsConstructor
 public class ErrorDetails {
+//    error details
     private  String error;
     private  String details;
     private LocalDateTime timestamp;

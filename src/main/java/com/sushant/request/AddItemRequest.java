@@ -1,7 +1,7 @@
 package com.sushant.request;
 
 public class AddItemRequest {
-
+//add item request
     private  String size;
     private  int  quantity;
     private Long productId;

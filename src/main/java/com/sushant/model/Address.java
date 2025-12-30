@@ -11,7 +11,7 @@ import lombok.*;
 @NoArgsConstructor
 @EqualsAndHashCode
 public class Address {
-
+//address
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;

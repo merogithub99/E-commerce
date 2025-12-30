@@ -3,7 +3,7 @@ package com.sushant.util;
 import java.util.Random;
 
 public class OtpUtil {
-
+//otp util
     public static  String generateOtp(){
         int otpLength=6;
         Random random = new Random();

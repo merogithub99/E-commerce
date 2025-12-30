@@ -17,7 +17,7 @@ import java.security.PrivilegedAction;
 @RequestMapping("/api")
 public class AdminController {
 private  final SellerService sellerService;
-
+//seller service
 
 
     @PatchMapping("/seller/{id}/status/{status}")

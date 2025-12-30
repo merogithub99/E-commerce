@@ -20,7 +20,7 @@ import java.util.Collections;
 @Configuration
 @EnableWebSecurity
 public class AppConfig {
-
+//appconfig
 
     @Bean
     SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {

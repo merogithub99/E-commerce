@@ -24,7 +24,6 @@ public class CustomUserServiceImpl implements UserDetailsService {
     private final UserRepository userRepository;
     private final SellerRepo sellerRepo;
 
-
     private static final Logger logger = LoggerFactory.getLogger(CustomUserServiceImpl.class);
 
     private static final String SELLER_PREFIX = "seller_";
